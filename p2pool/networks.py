@@ -25,7 +25,7 @@ nets = dict(
         MAX_TARGET=2**256//2**20 - 1,
         PERSIST=False,
         WORKER_PORT=17903,
-        BOOTSTRAP_ADDRS='asia01.poolhash.org'.split(' '),
+        BOOTSTRAP_ADDRS='188.226.145.240 91.121.84.207 37.187.74.123 204.12.193.178 67.207.208.166'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-give',
         VERSION_CHECK=lambda v: True,
     ),
